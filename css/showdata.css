@@ -64,3 +64,10 @@
     font-size: 24px;
     border: 2px solid red;
 }
+
+.descriptiondiv {
+    color: red;
+    width: 90%;
+    margin: auto;
+    margin-top: 16px;
+}
