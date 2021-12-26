@@ -41,7 +41,7 @@
 }
 
 .datadivcont > div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 35%;
     height: 200px;
     border-radius: 10px;
@@ -52,7 +52,18 @@
 }
 
 .datadivcont :nth-child(2){
+    border: 2px solid red;
     margin-right: 10%;
+}
+
+.imgdatadiv {
+    padding: 0%;
+    margin-left: 0;
+}
+.imgdatadiv > img {
+    width: 100%;
+    /* height: 100%; */
+    margin-left: 0;
 }
 
 .main_container button {
@@ -70,4 +81,5 @@
     width: 90%;
     margin: auto;
     margin-top: 16px;
+    /* align-content: center; */
 }

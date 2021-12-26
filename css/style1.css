@@ -1,3 +1,7 @@
+body {
+    overflow-y: auto;
+}
+
 .container{
     border: 2px solid red;
     width: 100px;
@@ -98,6 +102,7 @@
     overflow-y: auto;
     border-radius: 20px;
     margin-bottom: 10px;
+    margin-top: -20px;
 }
 
 .each_reasult {
