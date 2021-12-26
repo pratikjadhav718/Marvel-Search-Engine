@@ -76,3 +76,13 @@ function getId(id){
 
     window.location.href = "./html/showData.html";
 }
+
+
+// var searchinput = document.getElementById("inputbox");
+
+// searchinput.addEventListener("keyup", function(event){
+//     if (event.keyCode === 13) {
+//         event.preventDefault();
+//         document.getElementById("searchicon").click();
+//     }
+// })
