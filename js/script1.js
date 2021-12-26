@@ -48,4 +48,8 @@ function showData(data){
 
 function getId(id){
     console.log(id);
+
+    localStorage.setItem("charId", id);
+
+    window.location.href = "./html/showData.html";
 }
