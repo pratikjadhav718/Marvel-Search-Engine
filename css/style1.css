@@ -103,3 +103,7 @@
 .each_reasult {
     color: white;
 }
+
+.each_reasult:hover{
+    color: tomato;
+}
