@@ -23,7 +23,7 @@ function showData(data){
 
     x.innerHTML = "";
 
-    console.log(data.data.results[0].name);
+    // console.log(data.data.results[0].name);
 
     for(let i=0; i<data.data.results.length; i++){
         console.log(data.data.results[i].name);
