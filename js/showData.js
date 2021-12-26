@@ -27,7 +27,14 @@ function showData2(data){
 
     document.getElementById("nameofchar").innerText = data.data.results[0].name;
 
-    document.getElementById("descriptiondiv").innerText = data.data.results[0].description
+    document.getElementById("descriptiondiv").innerText = data.data.results[0].description;
+
+    let images = document.createElement("img");
+    images.src = data.data.results[0].thumbnail.path + "." +data.data.results[0].thumbnail.extension;
+
+    let imgdatadiv = document.getElementById("imgdatadiv");
+
+    imgdatadiv.appendChild(images);
 }
 
 
