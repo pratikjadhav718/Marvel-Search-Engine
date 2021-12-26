@@ -69,7 +69,7 @@ body {
     border-radius: 50%;
     padding: 7px;
     /* box-sizing: border-box; */
-    background-color: yellow;
+    background-color: #ed1d24;
 }
 
 .search__searchbox > :nth-child(2) > img {
