@@ -1,7 +1,7 @@
 .main_container {
     border: 2px solid red;
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
 
     position: absolute;
     top:0;
@@ -13,4 +13,54 @@
 
     width: 40%;
     height: 500px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.main_container > :nth-child(1){
+    margin: auto;
+    margin-top: 36px;
+    /* margin-left: 30%; */
+    color: red;
+    align-self: center;
+}
+
+.main_container > :nth-child(1) > h1{
+    margin: auto;
+    /* margin-top: 32px; */
+    color:red;
+    font-weight: bolder;
+    
+}
+
+.datadivcont {
+    display: flex;
+    grid-gap: 10%;
+    margin-top: 32px;
+
+}
+
+.datadivcont > div {
+    border: 2px solid red;
+    width: 35%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.datadivcont :nth-child(1){
+    margin-left: 10%;
+}
+
+.datadivcont :nth-child(2){
+    margin-right: 10%;
+}
+
+.main_container button {
+    padding: 10px 15px;
+    border-radius: 9px;
+    margin-top: 36px;
+    background: transparent;
+    color: red;
+    font-size: 24px;
+    border: 2px solid red;
 }
