@@ -20,16 +20,16 @@
 
         <div class="search__searchbox">
             <div>
-                <input type="text" placeholder="Search Characters">
+                <input oninput="debounce(main, 800)" id="inputbox" type="text" placeholder="Search Characters">
             </div>
             <div onclick="makeApiRequest()" class="searchicon" id="searchicon">
                 <img src="./assets/index.svg" alt="">
             </div>
         </div>
         <div class="search_reasult" id="search_reasult">
-            <div class="each_reasult">
+            <!-- <div class="each_reasult">
                 check check
-            </div>
+            </div> -->
         </div>
     </div>
 </body>
