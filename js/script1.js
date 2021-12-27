@@ -86,3 +86,8 @@ function getId(id){
 //         document.getElementById("searchicon").click();
 //     }
 // })
+
+
+function funAllCharPage(){
+    window.location.href = "./html/AllMarvel.html";
+}

@@ -121,3 +121,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.img-icons {
+    width: 50px;
+}
