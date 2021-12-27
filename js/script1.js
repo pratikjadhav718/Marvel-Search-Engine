@@ -1,5 +1,7 @@
 var timerId;
 
+let AudioFlag = false;
+
 function debounce (func, delay){
 
     if(timerId){
@@ -90,4 +92,18 @@ function getId(id){
 
 function funAllCharPage(){
     window.location.href = "./html/AllMarvel.html";
+}
+
+
+function toggleAudio(){
+    var audio = document.getElementById("myAudio");
+    var audioIcon = document.getElementById("audioicon");
+
+    if(AudioFlag == false){
+        audio.play();
+        AudioFlag=true;
+    }else{
+        audio.pause();
+        AudioFlag=false;
+    }
 }

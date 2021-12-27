@@ -13,12 +13,20 @@
 <body>
     <div class="stars"></div>
 
-    <div class="topnav" style="color: white;">
+    <audio id="myAudio">
+        <source src="./audio/MarvelOpeningTheme.mp3" type="audio/ogg">
+        <source src="./audio/MarvelOpeningTheme.mp3" type="audio/mpeg">
+        <!-- Your browser does not support the audio element. -->
+    </audio>
+
+    <div class="topnav">
         <div onclick="funAllCharPage()">
             <img class="img-icons" src="./assets/Marvel-icon.png" alt="">
         </div>
 
-        <div>two</div>
+        <div onclick="toggleAudio()">
+            <img class="img-icons" src="./assets/audio-off.svg" alt="" id="audioicon">
+        </div>
     </div>
 
     <div class="container">
