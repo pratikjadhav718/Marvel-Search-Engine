@@ -12,6 +12,7 @@
     height: 400px;
     border: 1px solid red;
     text-align: center;
+    overflow-y: auto;
 }
 
 .card button {
@@ -22,4 +23,8 @@
     color: red;
     font-size: 14px;
     border: 2px solid red;
+}
+
+.card img {
+    width: 70%;
 }
