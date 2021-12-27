@@ -54,7 +54,7 @@ function displyData(data){
         let btn = document.createElement('button');
         btn.innerText = "More Info"
         btn.onclick = function(){
-            getId(this.id);
+            getId(data.data.results[i].id);
         }
 
         btndiv.appendChild(btn);
@@ -71,7 +71,7 @@ function displyData(data){
 function getId(id){
     console.log(id);
 
-    // localStorage.setItem("charId", id);
+    localStorage.setItem("charId", id);
 
-    // window.location.href = "./html/showData.html";
+    window.location.href = "./showData.html";
 }
