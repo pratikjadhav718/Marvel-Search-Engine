@@ -112,3 +112,12 @@ body {
 .each_reasult:hover{
     color: tomato;
 }
+
+
+.topnav {
+    width: 95%;
+    margin: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}

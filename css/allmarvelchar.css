@@ -1,0 +1,25 @@
+.all-char-main-container {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    width: 95%;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.card {
+    height: 400px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.card button {
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-top: 16px;
+    background: transparent;
+    color: red;
+    font-size: 14px;
+    border: 2px solid red;
+}
