@@ -2,6 +2,8 @@ var timerId;
 
 let AudioFlag = false;
 
+let idForEnter;
+
 function debounce (func, delay){
 
     if(timerId){
@@ -49,6 +51,7 @@ function showData(data){
     x.innerHTML = "";
 
     // console.log(data.data.results[0].name);
+    idForEnter = data.data.results[0].id;
 
     for(let i=0; i<data.data.results.length; i++){
         console.log(data.data.results[i].name);
@@ -80,14 +83,17 @@ function getId(id){
 }
 
 
-// var searchinput = document.getElementById("inputbox");
+var searchinput = document.getElementById("inputbox");
 
-// searchinput.addEventListener("keyup", function(event){
-//     if (event.keyCode === 13) {
-//         event.preventDefault();
-//         document.getElementById("searchicon").click();
-//     }
-// })
+searchinput.addEventListener("keyup", function(event){
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        // document.getElementById("searchicon").click();
+        if(idForEnter){
+            getId(idForEnter);
+        }
+    }
+})
 
 
 function funAllCharPage(){
