@@ -102,8 +102,10 @@ function toggleAudio(){
     if(AudioFlag == false){
         audio.play();
         AudioFlag=true;
+        audioIcon.src = "../assets/audio-on.svg";
     }else{
         audio.pause();
         AudioFlag=false;
+        audioIcon.src = "../assets/audio-off.svg";
     }
 }

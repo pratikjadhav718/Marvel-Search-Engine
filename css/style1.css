@@ -51,6 +51,10 @@ body {
 
 }
 
+.search__searchbox > :nth-child(1) {
+    width: 80%;
+}
+
 .search__searchbox > :nth-child(1) > input {
     border: 0;
     padding: 0 15px;
@@ -58,9 +62,10 @@ body {
     color: #f2f2f2;
     font-size: 16px;
     height: 30px;
-    width: 80%;
+    width: 100%;
     margin: 0;
     background: #2d2f30;
+    /* background-color: red; */
 }
 
 .search__searchbox > :nth-child(2){
@@ -103,6 +108,8 @@ body {
     border-radius: 20px;
     margin-bottom: 10px;
     margin-top: -20px;
+
+    font-weight: bold;
 }
 
 .each_reasult {
@@ -117,7 +124,7 @@ body {
 .topnav {
     width: 95%;
     margin: auto;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: space-between;
 }
