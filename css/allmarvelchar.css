@@ -1,7 +1,10 @@
 body {
+    max-height: 100%;
     overflow-y: scroll;
 }
-
+.scrollclass{
+    overflow-y: scroll;
+}
 .all-char-main-container {
     /* border: 1px solid red; */
     display: grid;
@@ -9,7 +12,9 @@ body {
     grid-gap: 25px;
     width: 95%;
     margin: auto;
-    overflow-y: auto;
+    overflow-y: scroll;
+    height: 650px;
+    max-height: auto;
     color: red;
 }
 

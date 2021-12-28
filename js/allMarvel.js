@@ -66,6 +66,10 @@ function displyData(data){
         
     }
 
+    container.classList.add(scrollclass);
+
+
+
 }
 
 function getId(id){
